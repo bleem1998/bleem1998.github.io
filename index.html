@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charSet="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">			<!-- 自适应尺寸 -->
+		<!-- <link rel="icon" type="image/x-icon" href="https://www.baidu.com/favicon.ico">	 网站图标 -->
+		<title>露露姐的网站</title>
+		<noscript><p>你的浏览器不支持JavaScript！失敬失敬……</p></noscript>
+	</head>
+	
+	<body>
+		<center>			<!-- center是不是过时了 XXX -->
+		<div id='div-top'>  <!-- body里唯一div，所有东西都扔这里头 -->
+
+			<div id="div-warning">
+				<center>请先把饭钱结了</center>
+			</div>
+
+			<div class='div-C' c2='1'>		<!-- 大类div -->
+				<div class='di-i'>
+					除皱类
+				</div>
+				<div class='di'>
+					露露姐的私人领地
+				</div>
+			</div>
+
+			<div class='div-C' c2='1'>		<!-- 大类div -->
+				<div class='di-i'>
+					祛痘类
+				</div>
+			</div>
+			
+			<div class='div-C' c2='1'>		<!-- 大类div -->
+				<div class='di-i'>
+					a类
+				</div>
+			</div>
+			
+			<div class='div-C' c2='1'>		<!-- 大类div -->
+				<div class='di-i'>
+					b类
+				</div>
+			</div>
+			<div class='div-C' c2='1'>		<!-- 大类div -->
+				<div class='di-i'>
+					c类
+				</div>
+			</div>
+			<div class='div-C' c2='1'>		<!-- 大类div -->
+				<div class='di-i'>
+					友情链接
+				</div>
+				<div class='di'>
+					<a href='http://www.panpartner.com/'>十亿合伙人</a>
+				</div>
+			</div>
+		</div>
+		</center>
+
+
+
+
+
+
+
+
+
+
+
+		<style>
+			a {<!-- 超链接外观 -->
+				display: inline-block;
+				text-decoration: none;
+				color:#FFD700;
+			}
+			#div-top {					/* 顶层div */
+				display:flex;			/* flex布局 */
+				flex-direction:column;
+				
+				width:98%;
+				height:100%;
+				background-color:#666666;
+				color:white;
+			}
+			
+			.div-C {			/*大类div*/
+				display:flex;
+				flex-direction:row;
+				flex-wrap:wrap;
+				
+				width:100%;
+				margin: 0px;
+				margin-top: 50px;		/*大类之间稍稍分散多一点*/
+				background-color:#666666;
+			}
+			
+			.di-i {				/*Item index div*/
+				display:flex;
+				justify-content:flex-start;
+				width:100%;
+				margin: 0px;
+				margin-left: 5px;
+				margin-top: 5px;
+				background-color:#082E54;
+			}
+
+			.di {				/*Item div*/
+				display:flex;
+				margin: 0px;
+				margin-left: 20px;		/*稍稍分开一点*/
+				margin-top: 10px;
+				background-color:#808069;
+			}
+			
+			.di-br {
+				width:100%;
+				background-color:#808069;
+			}
+			
+			#div-warning {		/*警告 div*/
+				margin: 0px;
+				margin-top: 10px;
+				text-align:center;
+				background-color:red;
+			}
+			
+		</style>
+	</body>
+</html>
